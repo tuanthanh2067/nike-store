@@ -43,3 +43,7 @@
 #submit:hover {
   background: rgb(228, 228, 228);
 }
+
+#comment-question {
+  min-height: 120px;
+}

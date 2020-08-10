@@ -17,7 +17,9 @@
 
   <body>
     <div class="logo">
-      <a href="./index.html"><img class="logo-img" src="./logo/nikelogo.png" alt="Logo"/></a>
+      <a href="./index.html"
+        ><img class="logo-img" src="./logo/nikelogo.png" alt="Logo"
+      /></a>
     </div>
 
     <form id="contact-form" action="https://httpbin.org/post" method="POST">
@@ -58,7 +60,13 @@
       <label for="question-type" class="form-title">Question about:</label>
       <br />
       <div class="radio-questions">
-        <input type="radio" id="question" name="about" value="question" checked />
+        <input
+          type="radio"
+          id="question"
+          name="about"
+          value="question"
+          checked
+        />
         <label for="question">Question</label><br />
         <input type="radio" id="comment" name="about" value="comment" />
         <label for="comment">Comment</label><br />
@@ -77,7 +85,13 @@
       <br /><br />
       <label for="comment-question" class="form-title">Comments:</label>
       <br />
-      <textarea name="comment-question" id="comment-question" cols="73" rows="7"></textarea>
+      <textarea
+        name="comment-question"
+        class="form-input"
+        id="comment-question"
+        cols="73"
+        rows="7"
+      ></textarea>
       <input type="hidden" id="my-name" name="my-name" value="Tuan Thanh Tan" />
       <br />
       <br />
