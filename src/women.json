@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "Nike Sportswear",
+      "type": 1,
+      "price": 100,
+      "img": "./women/1.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 102,
+      "name": "Nike Sportswear Air Max",
+      "type": 1,
+      "price": 120,
+      "img": "./women/2.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 103,
+      "name": "Nike Dri-FIT",
+      "type": 1,
+      "price": 60,
+      "img": "./women/3.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 104,
+      "name": "Jordan Jumpman Classics",
+      "type": 1,
+      "price": 70,
+      "img": "./women/4.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 105,
+      "name": "Nike Sportswear Club",
+      "type": 1,
+      "price": 75,
+      "img": "./women/5.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 106,
+      "name": "Nike Sportswear",
+      "type": 2,
+      "price": 75,
+      "img": "./women/6.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 107,
+      "name": "Nike Dri-FIT DNA",
+      "type": 2,
+      "price": 75,
+      "img": "./women/7.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 108,
+      "name": "NikeCourt Flex Ace",
+      "type": 2,
+      "price": 75,
+      "img": "./women/8.jpg",
+      "size": ["L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 109,
+      "name": "Nike Air Max Plus 3",
+      "type": 3,
+      "price": 175,
+      "img": "./women/9.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 110,
+      "name": "Nike Joyride Run Flyknit",
+      "type": 3,
+      "price": 275,
+      "img": "./women/10.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 111,
+      "name": "Nike Adapt BB 2.0",
+      "type": 3,
+      "price": 475,
+      "img": "./women/11.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 112,
+      "name": "Kyrie 6",
+      "type": 3,
+      "price": 145,
+      "img": "./women/12.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 113,
+      "name": "Nike Sportswear Air Max",
+      "type": 4,
+      "price": 100,
+      "img": "./women/13.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 114,
+      "name": "Nike Dri-FIT Strike",
+      "type": 4,
+      "price": 85,
+      "img": "./women/14.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 115,
+      "name": "Nike Dri-FIT Academy",
+      "type": 4,
+      "price": 55,
+      "img": "./women/15.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 116,
+      "name": "Nike Flex",
+      "type": 4,
+      "price": 95,
+      "img": "./women/16.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    }
+  ]
+}

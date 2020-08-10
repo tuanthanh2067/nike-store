@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contactus.css" />
+    <script src="./subscript.js" defer></script>
+  </head>
+
+  <body>
+    <div class="logo">
+      <a href="./index.html"><img class="logo-img" src="./logo/nikelogo.png" alt="Logo"/></a>
+    </div>
+
+    <form id="contact-form" action="https://httpbin.org/post" method="POST">
+      <label for="name" class="form-title">Name:</label>
+      <br />
+      <input class="form-input" type="text" name="name" required />
+      <br /><br />
+      <label for="email" class="form-title">Email Address:</label>
+      <br />
+      <input class="form-input" type="email" name="email" required />
+      <br /><br />
+      <label for="address" class="form-title">Address:</label>
+      <br />
+      <input class="form-input" type="text" name="address" required />
+      <br /><br />
+      <label for="city" class="form-title">City:</label>
+      <br />
+      <input list="city" name="city" class="form-input" required />
+      <datalist id="city">
+        <option value="Toronto"> </option>
+        <option value="Quebec"> </option>
+        <option value="Vancouver"> </option>
+        <option value="Calgary"> </option>
+        <option value="Ottawa"> </option>
+      </datalist>
+      <br /><br />
+      <label for="postal-code" class="form-title">Postal code:</label>
+      <br />
+      <input
+        type="text"
+        pattern="^[A-Za-z0-9]{3} ?[A-Za-z0-9]{3}"
+        name="postal-code"
+        class="form-input"
+        placeholder="M1L 2K3"
+        required
+      />
+      <br /><br />
+      <label for="question-type" class="form-title">Question about:</label>
+      <br />
+      <div class="radio-questions">
+        <input type="radio" id="question" name="about" value="question" checked />
+        <label for="question">Question</label><br />
+        <input type="radio" id="comment" name="about" value="comment" />
+        <label for="comment">Comment</label><br />
+        <input type="radio" id="order" name="about" value="order" />
+        <label for="order">Order Problem</label>
+        <br />
+      </div>
+      <input
+        type="text"
+        id="order-number-box"
+        class="form-input hide"
+        name="order-number"
+        placeholder="Order Number"
+        value=""
+      />
+      <br /><br />
+      <label for="comment-question" class="form-title">Comments:</label>
+      <br />
+      <textarea name="comment-question" id="comment-question" cols="73" rows="7"></textarea>
+      <input type="hidden" id="my-name" name="my-name" value="Tuan Thanh Tan" />
+      <br />
+      <br />
+      <input type="submit" id="submit" value="Send" />
+    </form>
+
+    <footer>
+      <div class="left-most">
+        <a href="">
+          <h2>Find a store</h2>
+        </a>
+        <a href="">
+          <h2>Sign up for discount</h2>
+        </a>
+      </div>
+      <div class="middle">
+        <a href="">
+          <h2>Contact us</h2>
+        </a>
+        <a href="./aboutme.html">
+          <h2>About me</h2>
+        </a>
+      </div>
+      <div class="right-most">
+        <div class="social">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="subscribe">
+          <h4>Subscribe us</h4>
+          <form action="https://formspree.io/mbjzbrwj" method="POST">
+            <input
+              id="subscribe-box"
+              name="email"
+              type="email"
+              placeholder="nike@gmail.com"
+              value=""
+            />
+            <input id="subscribe-send" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

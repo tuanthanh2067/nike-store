@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 201,
+      "name": "Nike Sportswear",
+      "type": 1,
+      "price": 100,
+      "img": "./kids/1.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 202,
+      "name": "Nike Sportswear Air Max",
+      "type": 1,
+      "price": 120,
+      "img": "./kids/2.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 203,
+      "name": "Nike Dri-FIT",
+      "type": 1,
+      "price": 60,
+      "img": "./kids/3.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 204,
+      "name": "Jordan Jumpman Classics",
+      "type": 1,
+      "price": 70,
+      "img": "./kids/4.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 205,
+      "name": "Nike Sportswear Club",
+      "type": 1,
+      "price": 75,
+      "img": "./kids/5.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 206,
+      "name": "Nike Sportswear",
+      "type": 2,
+      "price": 75,
+      "img": "./kids/6.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 207,
+      "name": "Nike Dri-FIT DNA",
+      "type": 2,
+      "price": 75,
+      "img": "./kids/7.jpg",
+      "size": ["M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 208,
+      "name": "NikeCourt Flex Ace",
+      "type": 2,
+      "price": 75,
+      "img": "./kids/8.jpg",
+      "size": ["L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 209,
+      "name": "Nike Air Max Plus 3",
+      "type": 3,
+      "price": 175,
+      "img": "./kids/9.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 210,
+      "name": "Nike Joyride Run Flyknit",
+      "type": 3,
+      "price": 275,
+      "img": "./kids/10.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 211,
+      "name": "Nike Adapt BB 2.0",
+      "type": 3,
+      "price": 475,
+      "img": "./kids/11.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 212,
+      "name": "Kyrie 6",
+      "type": 3,
+      "price": 145,
+      "img": "./kids/12.jpg",
+      "size": [6, 7, 8, 9, 10, 11, 12, 13],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 213,
+      "name": "Nike Sportswear Air Max",
+      "type": 4,
+      "price": 100,
+      "img": "./kids/13.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 214,
+      "name": "Nike Dri-FIT Strike",
+      "type": 4,
+      "price": 85,
+      "img": "./kids/14.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 215,
+      "name": "Nike Dri-FIT Academy",
+      "type": 4,
+      "price": 55,
+      "img": "./kids/15.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    },
+    {
+      "id": 216,
+      "name": "Nike Flex",
+      "type": 4,
+      "price": 95,
+      "img": "./kids/16.jpg",
+      "size": ["S", "M", "L", "XL"],
+      "date": "2020/07/31"
+    }
+  ]
+}

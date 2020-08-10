@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="logo">
+      <a href="./index.html"><img class="logo-img" src="./logo/nikelogo.png" alt="Logo"/></a>
+    </div>
+    <div class="navbar">
+      <ul class="main-nav-bar">
+        <li><a href="#" data-id="6">New Arrival</a></li>
+        <li><a href="#" data-id="7">Men</a></li>
+        <li><a href="#" data-id="8">Women</a></li>
+        <li><a href="#" data-id="9">Kids</a></li>
+        <li><a href="#" data-id="10">On Sale</a></li>
+      </ul>
+      <div class="cart-btn">
+        <i class="fas fa-shopping-basket"></i>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+
+    <div class="slider-container">
+      <i class="fas fa-arrow-left" id="prevBtn"></i>
+      <i class="fas fa-arrow-right" id="nextBtn"></i>
+      <div class="image-container">
+        <img src="./img/6.jpg" alt="nike 6" id="lastClone" />
+        <img src="./img/2.jpg" alt="nike 2" />
+        <img src="./img/1.jpg" alt="nike 1" />
+        <img src="./img/3.jpg" alt="nike 3" />
+        <img src="./img/4.jpg" alt="nike 4" />
+        <img src="./img/5.jpg" alt="nike 5" />
+        <img src="./img/6.jpg" alt="nike 6" />
+        <img src="./img/2.jpg" alt="nike 1" id="firstClone" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="title">
+        <h2>Men</h2>
+        <i class="fas fa-arrow-circle-down"></i>
+      </div>
+      <div class="body" id="for-men">
+        <div class="inner-body" data-id="1m">
+          <img src="./img/man-shirt.jpg" alt="" />
+          <a href="#">Shirts</a>
+        </div>
+
+        <div class="inner-body" data-id="2m">
+          <img src="./img/man-pants.jpg" alt="" />
+          <a href="#">Short Pants</a>
+        </div>
+
+        <div class="inner-body" data-id="3m">
+          <img src="./img/man-shoes.jpg" alt="" />
+          <a href="#">Shoes</a>
+        </div>
+
+        <div class="inner-body" data-id="4m">
+          <img src="./img/man-trousers.jpg" alt="" />
+          <a href="#">Trousers</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="new-arrival">
+      <h3>Thousands of clothes</h3>
+      <h1>Just Arrived</h1>
+      <a href="#">Shop Now</a>
+    </div>
+
+    <div class="section" id="for-women">
+      <div class="title">
+        <h2>Women</h2>
+        <i class="fas fa-arrow-circle-down"></i>
+      </div>
+      <div class="body">
+        <div class="inner-body" data-id="1w">
+          <img src="./img/woman-shirt.jpg" alt="" />
+          <a href="#">Shirts</a>
+        </div>
+
+        <div class="inner-body" data-id="2w">
+          <img src="./img/woman-pants.jpg" alt="" />
+          <a href="#">Short Pants</a>
+        </div>
+
+        <div class="inner-body" data-id="3w">
+          <img src="./img/woman-shoes.jpg" alt="" />
+          <a href="#">Shoes</a>
+        </div>
+
+        <div class="inner-body" data-id="4w">
+          <img src="./img/woman-trousers.jpg" alt="" />
+          <a href="#">Trousers</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="on-sale">
+      <h3>Hundreds of things</h3>
+      <h1>On Sale</h1>
+      <a href="#">Shop Now</a>
+    </div>
+
+    <div class="section" id="for-kids">
+      <div class="title">
+        <h2>Kids</h2>
+        <i class="fas fa-arrow-circle-down"></i>
+      </div>
+      <div class="body">
+        <div class="inner-body" data-id="1k">
+          <img src="./img/kids-hoodies.jpg" alt="" />
+          <a href="#">Shirts</a>
+        </div>
+
+        <div class="inner-body" data-id="2k">
+          <img src="./img/kids-clothes.jpg" alt="" />
+          <a href="#">Short Pants</a>
+        </div>
+
+        <div class="inner-body" data-id="3k">
+          <img src="./img/kids-shoes.jpg" alt="" />
+          <a href="#">Shoes</a>
+        </div>
+
+        <div class="inner-body" data-id="4k">
+          <img src="./img/kids-trousers.jpg" alt="" />
+          <a href="#">Trousers</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay hide">
+      <div class="window hide">
+        <div class="header">
+          <h2>Men's products</h2>
+          <i class="far fa-window-close close-button"></i>
+        </div>
+        <div class="products"></div>
+      </div>
+    </div>
+
+    <div class="cart-overlay hide">
+      <div class="cart hide">
+        <span class="close-cart">
+          <i class="far fa-window-close close-cart"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content"></div>
+        <div class="cart-footer">
+          <h3>Total: $<span class="your-total">0</span></h3>
+          <button class="place-order">Place Orders</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="left-most">
+        <a href="">
+          <h2>Find a store</h2>
+        </a>
+        <a href="">
+          <h2>Sign up for discount</h2>
+        </a>
+      </div>
+      <div class="middle">
+        <a href="./contactus.html">
+          <h2>Contact us</h2>
+        </a>
+        <a href="./aboutme.html">
+          <h2>About me</h2>
+        </a>
+      </div>
+      <div class="right-most">
+        <div class="social">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="subscribe">
+          <h4>Subscribe us</h4>
+          <form action="https://formspree.io/mbjzbrwj" method="POST">
+            <input
+              id="subscribe-box"
+              name="email"
+              type="email"
+              placeholder="nike@gmail.com"
+              value=""
+            />
+            <input id="subscribe-send" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!--
+      Introduction
+      ------------
+
+      You are asked to create an online store in HTML, CSS, and JavaScript.
+      Please implement a store with all of the following requirements.
+
+      You may remove this comment and place all your HTML in this file.
+
+      Requirements:
+
+      1. Include a header across the top with your store's name, a logo,
+      and use a different background colour, web font, etc. Your header should
+      include info about what the store is, what it sells, etc.  Use some images
+      to try and draw the user in. NOTE: place all your site's images in the
+      `src/images/` directory.
+
+      2. Below the header, a multi-column layout of items you can purchase in the
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. For example, if you are selling clothing, you might
+      have categories for Men, Women, and Children, and each category would have
+      its own set of items.  Each item should include:
+      
+        - a picture of the item
+        - the item's name or title
+        - a complete description of the item
+        - a category (i.e., each item must belong to one or more categories)
+        - a price in Canadian Dollars
+      
+      Each item should be its own "card" (i.e., some kind of box around each item
+      separating one from the next, with suitable whitespace between).
+
+      3. A category menu or "sidebar" (left, right, or top depending on your design)
+      showing the different categories of items in your store.  If a
+      user clicks on one of the categories, use CSS and JavaScript to hide all
+      other items in the store (i.e., only show items for the chosen category).
+      Make sure you include a way to return to seeing all categories, and make it
+      obvious to the user that they are only seeing a partial list of items when
+      you filter by category (i.e., use CSS and HTML to change things somehow).
+
+      4. Below the store items, a footer with the name of the store, any relevant
+      links you need to give users.  Include links and icons to any social media
+      for your store (Facebook, Twitter, etc). NOTE: you don't have to create such
+      accounts, but you can provide links to imaginary accounts.
+
+      5. Use at least two different Web Fonts for your store.  The titles should
+      be different from any regular text.  Use a free font service like
+      https://fonts.google.com/ or any other that you choose.  You can also
+      experiment with different font sizes and colours to draw attention toward
+      or away from various parts of your design.
+
+      6. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours (primary, secondary, accent), and use them throughout your site
+      for backgrounds, borders, fonts. Your store page needs to look attractive
+      and marks will be given for good a good looking site.  No one will buy from
+      a store that looks like its owners aren't professional or don't care about
+      details.  Also make sure that the colour contrast in your site is suitable
+      for everyone to read.
+
+      7. Use modern CSS to help you achieve your layout.  For example, Flexbox
+      and CSS Grid can help you create professional looking layouts.  Here
+      are some guides to get you started:
+
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+       
+      You are also welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      8. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them,
+      and include references to indicate where you got them. Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+
+      9. Make sure you reduce the download size of images you include in your
+      store.  Your images shouldn't be larger than 1M in size.  Users don't want to
+      download 10s or 100s of megabytes of data, especially on mobile.  You can use an
+      online tool like https://squoosh.app/ to help you reduce images.  You will
+      lose marks if your images aren't optimized for the web.
+
+      10. Make sure you have no JavaScript or other errors in your Dev Tools Console.
+      Run your site, and test all aspects of it with the Console open, and fix
+      any issues you encounter.
+
+      11. Make sure your code is properly indented and commented, and that you've used
+      good naming practices for variables, functions, ids, classes, etc.
+
+      12. Have fun!  Build something you'd be proud to show future employers in
+      interviews.  Take the time to properly design and implement a beautiful and
+      functional storefront.  Maybe it will inspire you to start your own online business?
+    -->
+  </body>
+</html>
