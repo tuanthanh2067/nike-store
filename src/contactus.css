@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contact-form {
+  background: #fff;
+  width: 70%;
+  min-height: 30vh;
+  margin: 7vh auto;
+}
+
+.form-title {
+  letter-spacing: 1.125px;
+  font-size: 1rem;
+}
+
+.form-input {
+  width: 85%;
+  height: 35px;
+  font-size: 1rem;
+}
+
+.hide {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+#comment-question {
+  font-size: 1.75rem;
+}
+
+#submit {
+  padding: 7px 25px;
+  background: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: rgb(228, 228, 228);
+}
