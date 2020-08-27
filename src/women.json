@@ -7,7 +7,8 @@
       "price": 100,
       "img": "./women/1.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 102,
@@ -16,7 +17,8 @@
       "price": 120,
       "img": "./women/2.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": false
     },
     {
       "id": 103,
@@ -25,7 +27,8 @@
       "price": 60,
       "img": "./women/3.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 104,
@@ -34,7 +37,8 @@
       "price": 70,
       "img": "./women/4.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 105,
@@ -43,7 +47,8 @@
       "price": 75,
       "img": "./women/5.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 106,
@@ -52,7 +57,8 @@
       "price": 75,
       "img": "./women/6.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": true
     },
     {
       "id": 107,
@@ -61,7 +67,8 @@
       "price": 75,
       "img": "./women/7.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 108,
@@ -70,7 +77,8 @@
       "price": 75,
       "img": "./women/8.jpg",
       "size": ["L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 109,
@@ -79,7 +87,8 @@
       "price": 175,
       "img": "./women/9.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": false
     },
     {
       "id": 110,
@@ -88,7 +97,8 @@
       "price": 275,
       "img": "./women/10.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 111,
@@ -97,7 +107,8 @@
       "price": 475,
       "img": "./women/11.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 112,
@@ -106,7 +117,8 @@
       "price": 145,
       "img": "./women/12.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 113,
@@ -115,7 +127,8 @@
       "price": 100,
       "img": "./women/13.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": true
     },
     {
       "id": 114,
@@ -124,7 +137,8 @@
       "price": 85,
       "img": "./women/14.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": true
     },
     {
       "id": 115,
@@ -133,7 +147,8 @@
       "price": 55,
       "img": "./women/15.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 116,
@@ -142,7 +157,8 @@
       "price": 95,
       "img": "./women/16.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/30",
+      "onSale": true
     }
   ]
 }

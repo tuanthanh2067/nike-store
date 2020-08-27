@@ -7,7 +7,8 @@
       "price": 100,
       "img": "./kids/1.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": true
     },
     {
       "id": 202,
@@ -16,7 +17,8 @@
       "price": 120,
       "img": "./kids/2.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 203,
@@ -25,7 +27,8 @@
       "price": 60,
       "img": "./kids/3.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 204,
@@ -34,7 +37,8 @@
       "price": 70,
       "img": "./kids/4.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 205,
@@ -43,7 +47,8 @@
       "price": 75,
       "img": "./kids/5.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 206,
@@ -52,7 +57,8 @@
       "price": 75,
       "img": "./kids/6.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 207,
@@ -61,7 +67,8 @@
       "price": 75,
       "img": "./kids/7.jpg",
       "size": ["M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/06/31",
+      "onSale": false
     },
     {
       "id": 208,
@@ -70,7 +77,8 @@
       "price": 75,
       "img": "./kids/8.jpg",
       "size": ["L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": true
     },
     {
       "id": 209,
@@ -79,7 +87,8 @@
       "price": 175,
       "img": "./kids/9.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/03/30",
+      "onSale": false
     },
     {
       "id": 210,
@@ -88,7 +97,8 @@
       "price": 275,
       "img": "./kids/10.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/08/31",
+      "onSale": true
     },
     {
       "id": 211,
@@ -97,7 +107,8 @@
       "price": 475,
       "img": "./kids/11.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": true
     },
     {
       "id": 212,
@@ -106,7 +117,8 @@
       "price": 145,
       "img": "./kids/12.jpg",
       "size": [6, 7, 8, 9, 10, 11, 12, 13],
-      "date": "2020/07/31"
+      "date": "2020/07/30",
+      "onSale": false
     },
     {
       "id": 213,
@@ -115,7 +127,8 @@
       "price": 100,
       "img": "./kids/13.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 214,
@@ -124,7 +137,8 @@
       "price": 85,
       "img": "./kids/14.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     },
     {
       "id": 215,
@@ -133,7 +147,8 @@
       "price": 55,
       "img": "./kids/15.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": true
     },
     {
       "id": 216,
@@ -142,7 +157,8 @@
       "price": 95,
       "img": "./kids/16.jpg",
       "size": ["S", "M", "L", "XL"],
-      "date": "2020/07/31"
+      "date": "2020/07/31",
+      "onSale": false
     }
   ]
 }
